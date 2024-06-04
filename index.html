@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>I'm thinking of a number...</title>
     <link rel="stylesheet" href="css/style.css"></link>
     <script defer src="js/main.js"></script>
 </head>
 
 <body>
-    <h1>Guess number project</h1>
+    <h1 id="heading">I'm thinking of a number...</h1>
+    <!-- Visualing representation of numbers which it wasn't excluded -->
+    <div id="container">
+        <div id="range"></div>
+    </div>
+    <!-- Place where the user input his guesses -->
+    <input type="text" id="input">
+    <!-- Hidding button which reload page without search string. Hidding by the end of game. -->
+    <button id="playagain" hidden onclick="location.search='';">Play Again</button>
 </body>
 
 </html>
