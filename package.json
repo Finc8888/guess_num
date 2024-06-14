@@ -1,13 +1,14 @@
 {
   "devDependencies": {
     "eslint": "^7.32.0",
-    "lite-server": "^2.6.1"
-  },
-  "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
+    "eslint-plugin-import": "^2.29.1",
+    "lite-server": "^2.6.1"
   },
   "scripts": {
     "lint": "yarn run eslint --ext .js ./js"
+  },
+  "dependencies": {
+    "grunt-es6-module-transpiler": "^0.6.0"
   }
 }
