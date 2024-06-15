@@ -1,0 +1,10 @@
+{
+    "prettier.configPath": "node/.prettierrc",
+    "prettier.prettierPath": "",
+    "explorer.compactFolders": false,
+    "editor.snippetSuggestions": "bottom",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": ["javascript"]
+}
